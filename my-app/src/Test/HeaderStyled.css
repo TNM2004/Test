@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.Wapper-Header {
+  width: 1161px;
+  height: 70px;
+  margin-left: 279px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Header-Right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.Header-Left{
+    padding: 20px;
+}
+
+.Header-Right .Bell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 41.06px;
+  width: 36px;
+  padding: 20px 0 20px 0;
+}
+
+
+.Bell-Number {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  width: 20px;
+  height: 20px;
+  border-radius: 100rem;
+  background-color: orange;
+  font-size: 10px;
+  line-height: 100%;
+  padding: 5px;
+}
+
+.Header-R-Content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  width: 150px;
+}
+
+.Header-R-Content img {
+  height: 44px;
+  width: 44px;
+  border-radius: 100rem;
+  object-fit: cover;
+}
+
+.Header-R-Content .title :first-child {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.Header-R-Arrow{
+    padding-left: 20px;
+}
+
+.Header-R-Arrow > span > i{
+  padding: 5px;  
+  border-radius: 50%;
+  line-height: 100%;
+  border: 1px solid black;
+}

@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.Wapper-Nav{
+    position: absolute;
+    width: 279px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Image{
+    width: 216px;
+    height: 71px;
+    margin-top: 13px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.Image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Content{
+    width: 309px;
+    height: 110px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content div{
+    width: 247.2px;
+    height: 52.1px;
+    border-radius: 8px;
+    background-color: orange;
+    margin-bottom: 5px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.Content div span{
+    padding-right: 30px;
+    padding-left: 20px;
+}
